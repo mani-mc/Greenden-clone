@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!-- Tailwind CSS Link -->
+    <link href="
+https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Responsive Navbar -->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+
+        <!-- Menu Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="h-6 w-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <!-- Navbar Lists -->
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a href="index.html" class="hover:underline hover:text-black">Home</a>
+            </li>
+
+            <li>
+                <a href="pruducts.html" class="hover:underline hover:text-black">Products</a>
+            </li>
+
+            <li>
+                <a href="contact.html" class="hover:underline hover:text-black">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Products List -->
+    <section class="p-10 text-center">
+        <h1 class="text-3xl font-bold">Our Products</h1>
+        <input type="text" placeholder="Search for a Product..." class=" mt-5  p-2 border-2 border-black w-96 md:w-2/4">
+
+        <div class="grid grid-cols-2 mt-8 md:grid-cols-4">
+
+            <div>
+                <img src="./images/peace-lily.jpg"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 p-2" alt="">
+                <h1>Peace Lily</h1>
+                <p>$20</p>
+            </div>
+
+            <div>
+                <img src="./images/areca-palm.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 p-2"
+                    alt="">
+                <h1>ArecaPalm</h1>
+                <p>$20</p>
+            </div>
+
+            <div>
+                <img src="./images/ZZ plant.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 p-2"
+                    alt="">
+                <h1>ZZ Plant</h1>
+                <p>$20</p>
+            </div>
+
+            <div>
+                <img src="./images/Orchid.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 p-2"
+                    alt="">
+                <h1>Orchid</h1>
+                <p>$20</p>
+            </div>
+
+            <div>
+                <img src="./images/Chinese evergreen.jpg"
+                    class=" inline hover:shadow-xl transform hover:-translate-y-2 p-2" alt="">
+                <h1>Chinese Evergreen</h1>
+                <p>$20</p>
+            </div>
+
+            <div>
+                <img src="./images/jade-plant.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 p-2"
+                    alt="">
+                <h1>Jade Plant</h1>
+                <p>$20</p>
+            </div>
+
+            <div>
+                <img src="./images/snake-plant.jpg"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 p-2" alt="">
+                <h1>Snake Plant</h1>
+                <p>$20</p>
+            </div>
+
+            <div>
+                <img src="./images/Kalanchoe.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 p-2"
+                    alt="">
+                <h1>Kalanchoe</h1>
+                <p>$20</p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <section class="bg-green-100 p-10 text-left flex flex-col gap-5">
+        <h1 class="text-3xl font-bold">Greenden</h1>
+        <p>The standard chunk of lorem ipsum used since the 1500s is reprodused brlow for those interest</p>
+        <p>&copy2025 Greenden.com</p>
+    </section>
+</body>
+
+</html>
