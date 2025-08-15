@@ -17,4 +17,4 @@ HTML5 – For the clean and semantic structure
 
 Tailwind CSS – For utility-first, beautiful styling without the fuss# Greenden-clone
 
-🌐Live Here :
+🌐Live Here : (https://mani-mc.github.io/Greenden-clone/)
